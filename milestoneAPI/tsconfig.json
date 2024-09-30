@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",  // Your source files are inside "src"
+    "outDir": "./dist",  // Compiled JS files will go inside "dist"
+    "esModuleInterop": true,  // This is the key flag to enable default import of CommonJS modules
+    "skipLibCheck": true,  // Optional, skips type checking for libraries
+    "strict": true         // Optional, enables strict type checking
+  },
+  "include": ["src/**/*.ts"],  // Include all TypeScript files in the src folder
+  "exclude": ["node_modules"]  // Exclude node_modules from compilation
+}
